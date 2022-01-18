@@ -1,0 +1,21 @@
+.header{
+    
+}
+.image{
+    animation-name: moveLogo;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+    
+    }
+
+@keyframes moveLogo {
+    from{
+        opacity: 0;
+        transform: translateX(200px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
